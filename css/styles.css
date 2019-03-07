@@ -7,6 +7,7 @@ body {
 
 .container-fluid {
   padding: 7% 15%;
+  text-align: center;
 }
 
 /* Section */
@@ -23,6 +24,11 @@ body {
 
 
 /* Header */
+
+#header h1, #header .btn{
+  text-align: left;
+}
+
 .navbar-brand {
   font-family: 'Changa', sans-serif;
   font-size: 3.5rem;
@@ -43,6 +49,18 @@ body {
     transform: rotate(15deg);
     position: absolute;
     right: 3%;
+}
+
+
+/* Feature Section */
+
+#features p {
+  padding-top: 4%;
+  padding-bottom: 8%;
+}
+
+#features i {
+  color: #36629B;
 }
 
 
