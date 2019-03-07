@@ -7,6 +7,7 @@ body {
 
 .container-fluid {
   padding: 7% 15%;
+  text-align: center;
 }
 
 /* Section */
@@ -23,6 +24,11 @@ body {
 
 
 /* Header */
+
+#header h1, #header .btn{
+  text-align: left;
+}
+
 .navbar-brand {
   font-family: 'Changa', sans-serif;
   font-size: 3.5rem;
@@ -46,13 +52,50 @@ body {
 }
 
 
+/* Feature Section */
+
+#features p {
+  padding-top: 4%;
+  padding-bottom: 8%;
+}
+
+#features i {
+  color: #36629B;
+}
+
+
 
 /* Testimonials */
+
+#testimonials h2 {
+  font-size: 2.5rem;
+}
+
 .testimonial-image {
   height: 150px;
   width: 150px;
   border-radius: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
+
+/* Partners Section */
+#partners {
+  text-align: center;
+  padding: 3% 15%;
+}
+
+.partners-logo {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.partners-logo:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
 
 /* CTA */
 #cta {
