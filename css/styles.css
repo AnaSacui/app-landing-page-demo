@@ -1,0 +1,48 @@
+/* General */
+/* purple shade: #5B48A2 */
+/* blue shade: #36629B */
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Section */
+
+.colored-section {
+  background-color: #5B48A2;
+  color: #fff;
+}
+
+
+/* Header */
+
+.navbar-brand {
+  font-family: 'Changa', sans-serif;
+  font-size: 3.5rem;
+}
+
+
+/* Testimonials */
+
+.testimonial-image {
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+}
+
+
+/* CTA */
+
+#cta {
+  background-image: url("../images/gades-photography-540989-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+#cta .container-fluid{
+  background-color: rgba(91, 72, 162, 0.5);
+}
