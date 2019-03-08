@@ -15,7 +15,6 @@ body {
   padding-bottom: 8%;
 }
 
-
 /* Section */
 .colored-section {
   background-color: #5B48A2;
@@ -23,15 +22,12 @@ body {
 }
 
 /* Download Buttons */
-
 .download-button {
   margin: 5% 3% 5% 0;
 }
 
-
 /* Header */
-
-#header .container-fluid{
+#header .container-fluid {
   text-align: left;
 }
 
@@ -52,24 +48,20 @@ body {
 
 .title-image {
   height: 622px;
-    transform: rotate(15deg);
-    position: absolute;
-    right: 3%;
+  transform: rotate(15deg);
+  position: absolute;
+  right: 3%;
 }
 
-
 /* Feature Section */
-
 #features i {
   color: #36629B;
   font-size: 5rem;
   padding-bottom: 10%;
 }
 
-
 /* Testimonials */
-
-#testimonials h2 {
+#testimonials .testimonial-heading {
   font-size: 2.5rem;
 }
 
@@ -83,38 +75,37 @@ body {
 
 /* Partners Section */
 #partners {
-  text-align: center;
   padding: 3% 15% 7%;
+  text-align: center;
 }
 
 .partners-logo {
+  color: #fff;
   font-size: 2rem;
   font-weight: 700;
-  color: #fff;
 }
 
 .partners-logo:hover {
-  text-decoration: none;
   color: #fff;
+  text-decoration: none;
 }
-
 
 /* Pricing */
 .card-header {
   color: #fff;
 }
 
- .standard-pricing {
-   background-color: #36629B;
- }
+.standard-pricing {
+  background-color: #36629B;
+}
 
 .premium-pricing {
   background-color: #5B48A2;
 }
 
-.card-header h3 {
+.card-header .card-heading {
   font-weight: 700;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .card-body button {
@@ -123,12 +114,12 @@ body {
   padding: 3%;
 }
 
-.card-body .btn-standard{
+.card-body .btn-standard {
   background-color: #36629B;
   border-color: #36629B;
 }
 
-.card-body .btn-premium{
+.card-body .btn-premium {
   background-color: #5B48A2;
   border-color: #5B48A2;
 }
@@ -141,6 +132,7 @@ body {
 }
 
 #cta .container-fluid {
+  background-color: #5B48A2;
   background-color: rgba(91, 72, 162, 0.5);
 }
 
@@ -149,16 +141,15 @@ body {
   text-shadow: 1px 2px 3px #5B48A2;
 }
 
-
 /* Footer */
 #footer .container-fluid {
   padding: 1%;
 }
 
 .social-icon {
+  color: #36629B;
   font-size: 1.5rem;
   padding: 1% 1% 2%;
-  color: #36629B;
 }
 
 #footer p {
@@ -167,20 +158,19 @@ body {
 }
 
 /* Viewport - Media Queries */
-
 @media (max-width: 1028px) {
   #header .container-fluid {
     text-align: center;
   }
 
   .navbar-brand {
-      font-size: 3rem;
+    font-size: 3rem;
   }
 
   .title-image {
+    margin: 10% auto;
     position: static;
     transform: rotate(0);
-    margin: 10% auto;
   }
 
   .partners-logo {
