@@ -10,6 +10,12 @@ body {
   text-align: center;
 }
 
+.subtitle {
+  padding-top: 4%;
+  padding-bottom: 8%;
+}
+
+
 /* Section */
 .colored-section {
   background-color: #5B48A2;
@@ -25,7 +31,7 @@ body {
 
 /* Header */
 
-#header h1, #header .btn{
+#header .container-fluid{
   text-align: left;
 }
 
@@ -54,15 +60,11 @@ body {
 
 /* Feature Section */
 
-#features p {
-  padding-top: 4%;
-  padding-bottom: 8%;
-}
-
 #features i {
   color: #36629B;
+  font-size: 5rem;
+  padding-bottom: 10%;
 }
-
 
 
 /* Testimonials */
@@ -82,7 +84,7 @@ body {
 /* Partners Section */
 #partners {
   text-align: center;
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 .partners-logo {
@@ -97,6 +99,40 @@ body {
 }
 
 
+/* Pricing */
+.card-header {
+  color: #fff;
+}
+
+ .standard-pricing {
+   background-color: #36629B;
+ }
+
+.premium-pricing {
+  background-color: #5B48A2;
+}
+
+.card-header h3 {
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.card-body button {
+  color: white;
+  font-weight: 700;
+  padding: 3%;
+}
+
+.card-body .btn-standard{
+  background-color: #36629B;
+  border-color: #36629B;
+}
+
+.card-body .btn-premium{
+  background-color: #5B48A2;
+  border-color: #5B48A2;
+}
+
 /* CTA */
 #cta {
   background-image: url("../images/gades-photography-540989-unsplash.jpg");
@@ -106,4 +142,58 @@ body {
 
 #cta .container-fluid {
   background-color: rgba(91, 72, 162, 0.5);
+}
+
+.cta-heading {
+  font-weight: 700;
+  text-shadow: 1px 2px 3px #5B48A2;
+}
+
+
+/* Footer */
+#footer .container-fluid {
+  padding: 1%;
+}
+
+.social-icon {
+  font-size: 1.5rem;
+  padding: 1% 1% 2%;
+  color: #36629B;
+}
+
+#footer p {
+  font-family: 'Changa', sans-serif;
+  font-size: 1rem;
+}
+
+/* Viewport - Media Queries */
+
+@media (max-width: 1028px) {
+  #header .container-fluid {
+    text-align: center;
+  }
+
+  .navbar-brand {
+      font-size: 3rem;
+  }
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    margin: 10% auto;
+  }
+
+  .partners-logo {
+    padding-bottom: 10%;
+  }
+
+  .card {
+    margin-bottom: 10%;
+  }
+}
+
+@media (max-width: 570px) {
+  .title-image {
+    height: 400px;
+  }
 }
