@@ -8,7 +8,7 @@ This is an App Landing Page Demo
 * [Dropwizard](https://mockflow.com/) - Mobile App Screen Image
 * [Unsplash](https://unsplash.com/) - Images used for the Testimonials and Download Sections
 
-## Photos from Testimonials and CTA Sections
+## Photos from Testimonials and Download Sections
 
 -   Photo by Jaclyn Moy on Unsplash
 -   Photo by Luis Quintero on Unsplash
